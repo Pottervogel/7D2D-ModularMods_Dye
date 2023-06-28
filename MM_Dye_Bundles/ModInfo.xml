@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="Modular Mods: Dye - Bundles" />
-    <Description value="You can bundle single dyes up to 20. Bundles are a workaround. Stacks of dye would be lost when you apply dyes." />
+    <Description value="You can bundle single dyes up to 20. Bundles are a workaround. Stacks would be lost when you apply dyes." />
     <Author value="Pottervogel" />
     <Version value="1.0" />
     <Website value="" />
