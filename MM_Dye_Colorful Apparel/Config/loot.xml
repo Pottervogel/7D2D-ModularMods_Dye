@@ -59,7 +59,7 @@
 			<item name="armorFootballHelmet"/>
 		</lootgroup>
 		<lootgroup name="groupApparelFaceCover">
-			<item name="apparelBandana">
+			<item name="apparelBandana"/>
 			<item name="apparelShades" loot_prob_template="high"/>
 			<item name="apparelToughGuySunglasses" loot_prob_template="high"/>
 			<item name="apparelNerdGlasses" loot_prob_template="high"/>
