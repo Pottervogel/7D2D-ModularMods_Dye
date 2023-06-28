@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<append xpath="/items">
+		<!-- Bundles -->
+		<item name="modDyeBundleMaster">
+			<property name="CustomIcon" value="modDyeWhite"/> 
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="modDyeBundleGroupDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Resources"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<!-- i want the sound of stepping trash the sounds like glass -->
+				<property name="Sound_start" value="DyeBottle"/>
+				<property name="Create_item" value="modDyeWhite"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<item name="modDyeBundleGreen">
+			<property name="Extends" value="modDyeBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIconTint" value="128,152,120"/>
+			<property class="Action0">
+				<property name="Create_item" value="modDyeGreen"/>
+			</property>
+		</item>
+		<item name="modDyeBundleBlue">
+			<property name="Extends" value="modDyeBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIconTint" value="74,93,134"/>
+			<property class="Action0">
+				<property name="Create_item" value="modDyeBlue"/>
+			</property>
+		</item>
+		<item name="modDyeBundleYellow">
+			<property name="Extends" value="modDyeBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIconTint" value="218,200,135"/>
+			<property class="Action0">
+				<property name="Create_item" value="modDyeYellow"/>
+			</property>
+		</item>
+		<item name="modDyeBundleRed">
+			<property name="Extends" value="modDyeBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIconTint" value="149,52,54"/>
+			<property class="Action0">
+				<property name="Create_item" value="modDyeRed"/>
+			</property>
+		</item>
+		<item name="modDyeBundleBlack">
+			<property name="Extends" value="modDyeBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIconTint" value="47,47,47"/>
+			<property class="Action0">
+				<property name="Create_item" value="modDyeBlack"/>
+			</property>
+		</item>
+		<item name="modDyeBundleBrown">
+			<property name="Extends" value="modDyeBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIconTint" value="132,105,84"/>
+			<property class="Action0">
+				<property name="Create_item" value="modDyeBrown"/>
+			</property>
+		</item>
+		<item name="modDyeBundlePink">
+			<property name="Extends" value="modDyeBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIconTint" value="240,162,251"/>
+			<property class="Action0">
+				<property name="Create_item" value="modDyePink"/>
+			</property>
+		</item>
+		<item name="modDyeBundlePurple">
+			<property name="Extends" value="modDyeBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIconTint" value="113,97,129"/>
+			<property class="Action0">
+				<property name="Create_item" value="modDyePurple"/>
+			</property>
+		</item>
+	</append>	
+</config>

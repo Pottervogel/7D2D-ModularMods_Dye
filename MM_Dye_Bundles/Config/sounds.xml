@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<append xpath="/Sounds">
+		<SoundDataNode name="DyeBottle"> 
+			<AudioSource name="Sounds/AudioSource_Footsteps"/>
+			<Noise ID="1" noise="10" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="Sounds/Step/steptrash1"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			 <NoiseScale value="1"/>
+			 <MaxVoices value="10"/>
+			 <MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+	</append>
+
+</config>

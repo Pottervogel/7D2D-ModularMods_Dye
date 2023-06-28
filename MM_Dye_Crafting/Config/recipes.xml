@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <append xpath="/recipes">
+
+	<!-- VANILLA COLORS ------------------------------------------ -->	
+
+	<!-- RED ------------------------------------------ -->
+		<recipe name="modDyeRed" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="8"/>
+		</recipe>
+		<recipe name="modDyeRed" count="1" craft_area="chemistryStation" craft_time="2"  tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="4"/>
+		</recipe>
+
+	<!-- GREEN ------------------------------------------ -->
+		<recipe name="modDyeGreen" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="8"/>
+		</recipe>
+		<recipe name="modDyeGreen" count="1" craft_area="chemistryStation" craft_time="2"  tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="4"/>				
+		</recipe>
+
+	<!-- BLACK ------------------------------------------ -->
+		<recipe name="modDyeBlack" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCoal" count="8"/>
+		</recipe>
+		<recipe name="modDyeBlack" count="1" craft_area="chemistryStation" craft_time="2"  tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCoal" count="4"/>
+		</recipe>
+
+	<!-- BLUE ------------------------------------------ -->
+		<recipe name="modDyeBlue" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="foodCropBlueberries" count="8"/>
+		</recipe>
+		<recipe name="modDyeBlue" count="1" craft_area="chemistryStation" craft_time="2"  tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="foodCropBlueberries" count="4"/>		
+		</recipe>
+
+	<!-- BROWN ------------------------------------------ -->
+		<recipe name="modDyeBrown" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCropCoffeeBeans" count="8"/>
+		</recipe>
+		<recipe name="modDyeBrown" count="1" craft_area="chemistryStation" craft_time="2"  tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCropCoffeeBeans" count="4"/>		
+		</recipe>
+
+	<!-- PINK ------------------------------------------ -->
+		<recipe name="modDyePink" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceRockSmall" count="4"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="4"/>
+		</recipe>
+		<recipe name="modDyePink" count="1" craft_area="chemistryStation" craft_time="2"  tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceRockSmall" count="2"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+		</recipe>
+
+	<!-- PURPLE ------------------------------------------ -->
+		<recipe name="modDyePurple" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="foodCropBlueberries" count="4"/>		
+			<ingredient name="resourceCropChrysanthemumPlant" count="4"/>
+		</recipe>
+		<recipe name="modDyePurple" count="1" craft_area="chemistryStation" craft_time="2"  tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="foodCropBlueberries" count="2"/>		
+			<ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+		</recipe>
+
+		<!-- YELLOW ------------------------------------------ -->
+		<recipe name="modDyeYellow" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="8"/>
+		</recipe>
+		<recipe name="modDyeYellow" count="1" craft_area="chemistryStation" craft_time="2"  tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="4"/>				
+		</recipe>
+
+		
+		<!-- ADDITIONAL COLORS ------------------------------------------ -->
+		<!-- WHITE (is pretty much useless)------------------------------------------ -->
+		<!-- resourceRockSmall is used to craft cement, so i assume it could be limestone ------------------------------------------ -->
+		<!--
+		<recipe name="modDyeWhite" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceRockSmall" count="8"/>
+		</recipe>
+		<recipe name="modDyeWhite" count="1" craft_area="chemistryStation"  craft_time="2"  tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceRockSmall" count="4"/>
+		</recipe>
+		------------------------------------------ -->
+		<!-- ORANGE ------------------------------------------ -->
+		<!--
+		<recipe name="modDyeOrange" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10" > 
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="4"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="4"/>
+		</recipe>
+
+		<recipe name="modDyeOrange" count="1" craft_area="chemistryStation" craft_time="2" tags="chemStationCrafting">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="2"/>				
+		</recipe>
+		------------------------------------------ -->
+		
+		
+    </append>
+</config>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="Modular Mods: Dye - Bundles" />
+    <Description value="You can bundle single dyes up to 20. Bundles are a workaround instead of stacking for not loosing a bunch of dye when you use it." />
+    <Author value="Pottervogel" />
+    <Version value="1.0" />
+    <Website value="" />
+  </ModInfo>
+</xml>

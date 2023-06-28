@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <append xpath="/recipes">
+		
+		<recipe name="modDyeBundleGreen" count="1" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="modDyeGreen" count="1"/>
+		</recipe>
+		<recipe name="modDyeBundleBlue" count="1" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="modDyeBlue" count="1"/>
+		</recipe>
+		<recipe name="modDyeBundleYellow" count="1" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="modDyeYellow" count="1"/>
+		</recipe>
+		<recipe name="modDyeBundleRed" count="1" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="modDyeRed" count="1"/>
+		</recipe>
+		<recipe name="modDyeBundleBlack" count="1" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="modDyeBlack" count="1"/>
+		</recipe>
+		<recipe name="modDyeBundleBrown" count="1" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="modDyeBrown" count="1"/>
+		</recipe>
+		<recipe name="modDyeBundlePink" count="1" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="modDyePink" count="1"/>
+		</recipe>
+		<recipe name="modDyeBundlePurple" count="1" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="modDyePurple" count="1"/>
+		</recipe>
+
+		
+    </append>
+</config>

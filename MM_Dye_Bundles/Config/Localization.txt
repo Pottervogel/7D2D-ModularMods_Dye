@@ -1,0 +1,12 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,german
+
+modDyeBundleMaster,items,item,,,White Dye Bundle,"Packung Weiß"
+modDyeBundleRed,items,item,,,Red Dye Bundle,"Packung Rot"
+modDyeBundleBlue,items,item,,,Blue Dye Bundle,"Packung Blau"
+modDyeBundleGreen,items,item,,,Green Dye Bundle,"Packung Grün"
+modDyeBundleYellow,items,item,,,Yellow Dye Bundle,"Packung Gelb"
+modDyeBundleBrown,items,item,,,Brown Dye Bundle,"Packung Braun"
+modDyeBundlePink,items,item,,,Pink Dye Bundle,"Packung Rosa"
+modDyeBundlePurple,items,item,,,Purple Dye Bundle,"Packung Violett"
+modDyeBundleBlack,items,item,,,Black Dye Bundle,"Packung Schwarz"
+modDyeBundleGroupDesc,items,item,,,You can bundle 1 - 20 dye bottles into one package,"Du kannst bis zu 20 Fläschchen einer Farbe zusammen packen"

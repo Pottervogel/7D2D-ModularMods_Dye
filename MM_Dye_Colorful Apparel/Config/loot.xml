@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelSuit']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelPants']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelShirtLong']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelTankTopTShirt']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelCoats']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelHats']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelFaceCover']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelBootsShoes']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelShoesAll']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelClothes']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupApparelClothesNoShoes']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWarmClothes']"/>
+
+
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupTreasureMaps']">
+		<lootgroup name="groupApparelSuit">
+			<item name="apparelSuitPants"/>
+			<item name="apparelSuitJacket"/>
+			<item name="apparelSuitDressShoes"/>
+		</lootgroup>
+		<lootgroup name="groupApparelPants">
+			<item name="apparelDenimPants"/>
+			<item name="apparelArmyPants"/>
+			<item name="apparelSkirt"/>
+			<item name="apparelDenimShortsPants"/>
+			<item name="apparelOveralls"/>
+			<item name="apparelGothPants"/>
+		</lootgroup>
+		<lootgroup name="groupApparelShirtLong">
+			<item name="apparelLongShirt"/>
+			<item name="apparelArmyShirt"/>
+			<item name="apparelHoodySweatshirt"/>
+			<item name="apparelSweatshirt"/>
+			<item name="apparelFlannelShirt"/>
+		</lootgroup>
+		<lootgroup name="groupApparelTankTopTShirt">
+			<item name="apparelTankTop"/>
+			<item name="apparelTShirtPlain"/>
+		</lootgroup>
+		<lootgroup name="groupApparelCoats">
+			<item name="apparelCoatLeatherPoncho"/>
+			<item name="apparelCoatLeatherDuster"/>
+			<item name="apparelCoatPufferCoat"/>
+			<item name="apparelCoatJacketGeneric"/>
+			<item name="apparelCoatJacketLetterZU"/>
+		</lootgroup>
+		<lootgroup name="groupApparelHats">
+			<item name="apparelSkullCap"/>
+			<item name="apparelPressboyCap"/>
+			<item name="apparelBallCap"/>
+			<item name="apparelCowboyHat"/>
+			<item name="modArmorSkullCap" loot_prob_template="low"/>
+			<item name="modArmorPressboyCap" loot_prob_template="low"/>
+			<item name="modArmorBallCap" loot_prob_template="low"/>
+			<item name="modArmorCowboyHat" loot_prob_template="low"/>
+			<item name="armorClothHat"/>
+			<item name="armorFootballHelmet"/>
+		</lootgroup>
+		<lootgroup name="groupApparelFaceCover">
+			<item name="apparelBandana">
+			<item name="apparelShades" loot_prob_template="high"/>
+			<item name="apparelToughGuySunglasses" loot_prob_template="high"/>
+			<item name="apparelNerdGlasses" loot_prob_template="high"/>
+			<item name="apparelSkiGoggles" loot_prob_template="high"/>
+			<item name="apparelAviatorGoggles"  loot_prob_template="high"/>
+		</lootgroup>
+		<lootgroup name="groupApparelBootsShoes">
+			<item name="apparelWornBoots"/>
+			<item name="apparelGothBoots"/>
+			<item name="apparelCowboyBoots"/>
+			<item name="apparelRunningShoesRegular" loot_prob_template="low"/>
+			<item name="apparelRunningShoesHP" loot_prob_template="veryLow"/>
+		</lootgroup>
+		<lootgroup name="groupApparelShoesAll">
+			<item name="apparelWornBoots"/>
+			<item name="apparelCowboyBoots"/>
+			<item name="apparelGothBoots"/>
+			<item name="apparelSuitDressShoes"/>
+			<item name="apparelRunningShoesRegular" loot_prob_template="low"/>
+			<item name="apparelRunningShoesHP" loot_prob_template="veryLow"/>
+		</lootgroup>
+		<lootgroup name="groupApparelClothes">
+			<item group="groupApparelCoats"/>
+			<item group="groupApparelHats"/>
+			<item group="groupApparelFaceCover"/>
+			<item group="groupApparelShirtLong"/>
+			<item group="groupApparelTankTopTShirt"/>
+			<item group="groupApparelPants"/>
+			<item group="groupApparelBootsShoes"/>
+			<item group="groupApparelSuit" loot_prob_template="low"/>
+			<item name="armorFootballHelmet" loot_prob_template="low"/>
+			<item name="resourceSewingKit" count="1,2" loot_prob_template="med"/>
+			<item name="armorSteelSetParts" count="1,2" loot_prob_template="medLow"/>
+			<item name="armorMilitarySetParts" count="1,2" loot_prob_template="medLow"/>
+		</lootgroup>
+		<lootgroup name="groupApparelClothesNoShoes">
+			<item group="groupApparelCoats"/>
+			<item group="groupApparelHats"/>
+			<item group="groupApparelFaceCover"/>
+			<item group="groupApparelShirtLong"/>
+			<item group="groupApparelTankTopTShirt"/>
+			<item group="groupApparelPants"/>
+			<item group="groupApparelSuit" loot_prob_template="low"/>
+			<item name="armorFootballHelmet" loot_prob_template="low"/>
+			<item name="resourceSewingKit" count="1,2" loot_prob_template="med"/>
+			<item name="armorSteelSetParts" count="1,2" loot_prob_template="medLow"/>
+			<item name="armorMilitarySetParts" count="1,2" loot_prob_template="medLow"/>
+		</lootgroup>
+		<lootgroup name="groupWarmClothes">
+			<item group="groupApparelShirtLong"/>
+			<item group="groupApparelPants"/>
+			<item name="apparelCoatPufferCoat"/>
+			<item name="apparelSkullCap"/>
+			<item name="apparelSweatshirt"/>
+			<item name="apparelFlannelShirt"/>
+			<item name="apparelOveralls"/>
+			<item name="apparelCoatLeatherDuster"/>
+			<item name="apparelSkiGoggles" loot_prob_template="med"/>
+			<item name="resourceSewingKit"/>
+		</lootgroup>
+	</insertAfter>
+
+
+</colors>

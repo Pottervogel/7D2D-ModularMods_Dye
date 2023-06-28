@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,german
+
+lblCategoryDyes,UI,Tooltip,,,Dyes,Farben
