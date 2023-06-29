@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xml>
   <ModInfo>
-    <Name value="Modular Mods: Dye - Colorful Apparel" />
+    <Name value="MM_Dye_Colorful Apparel" />
+    <DisplayName value="Modular Mods: Dye - Colorful Apparel" />
     <Description value="Don't like white workwear? Here you go, Savage Country got colors back." />
     <Author value="Pottervogel" />
-    <Version value="1.0" />
+    <Version value="1.01-a21" />
     <Website value="https://github.com/Pottervogel/7D2D-ModularMods_Dye/" />
   </ModInfo>
 </xml>

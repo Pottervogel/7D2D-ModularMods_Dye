@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xml>
   <ModInfo>
-    <Name value="Modular Mods: Dye - Bundles" />
+    <Name value="MM_Dye_Bundles" />
+    <DisplayName value="Modular Mods: Dye - Bundles" />
     <Description value="You can bundle single dyes up to 20. Bundles are a workaround. Stacks would be lost when you apply dyes." />
     <Author value="Pottervogel" />
-    <Version value="1.0" />
+    <Version value="1.01-a21" />
     <Website value="https://github.com/Pottervogel/7D2D-ModularMods_Dye/" />
   </ModInfo>
 </xml>
